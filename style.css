@@ -1,0 +1,87 @@
+body {
+    font: 15px "Fira Sans", sans-serif;
+    margin: 20px;
+  }
+  
+  .controls {
+    margin-bottom: 20px;
+  }
+  
+  .controls label {
+    margin-right: 10px;
+  }
+  
+  .controls input {
+    margin-right: 20px;
+    width: 80px;
+  }
+  
+  button {
+    padding: 15px 30px;
+    font-size: 18px;
+    width: 150px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: rgb(244, 169, 84);
+    color: white;
+    border: none;
+  }
+
+  button:hover {
+    background-color: rgb(129, 116, 160);
+  }
+  
+  main {
+    display: grid;
+    gap: 10px;
+  }
+  
+  .fizzbuzz {
+    background-color: rgb(129, 116, 160);
+    color: black;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid black;
+  }
+  
+  .fizz {
+    background-color: rgb(239, 182, 200);
+    color: black;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid black;
+  }
+  
+  .buzz {
+    background-color: rgb(168, 136, 181);
+    color: black;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid black;
+  }
+  
+  .number {
+    background-color: rgb(255, 210, 160);
+    color: black;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid black;
+  }
+  
+  @media (min-width: 600px) {
+    main {
+      grid-template-columns: repeat(5, 1fr);
+    }
+  }
+  
+  @media (min-width: 900px) {
+    main {
+      grid-template-columns: repeat(10, 1fr);
+    }
+  }
+  
